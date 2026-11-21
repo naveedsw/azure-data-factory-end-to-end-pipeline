@@ -1,0 +1,22 @@
+{
+	"name": "demo-adf-naveed",
+	"properties": {
+		"globalParameters": {
+			"email_recipient": {
+				"type": "string",
+				"value": "naveedsw@gmail.com"
+			}
+		},
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true,
+			"isExplicitlySet": false
+		}
+	},
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "8906485f-b7e0-40d6-bfc9-5c2596e4911d",
+		"tenantId": "75609636-5e84-4fcc-b9a0-7aa88ae4b064"
+	}
+}
