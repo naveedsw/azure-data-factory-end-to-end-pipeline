@@ -79,7 +79,7 @@ File sources ──┘          │
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/<your-username>/azure-data-factory-end-to-end-pipeline.git
+   git clone https://github.com/naveedsw/azure-data-factory-end-to-end-pipeline.git
    ```
 2. **Create Azure resources:** Resource Group, ADF, Azure SQL DB, ADLS Gen2, Key Vault, and Logic App.
 3. **Run the SQL scripts** in the `sql/` folder to create source tables and the watermark metadata table.
