@@ -5,9 +5,6 @@
 		"factoryName": {
 			"value": "demo-adf-naveed"
 		},
-		"AzureSqlDatabase1_password": {
-			"value": ""
-		},
 		"AzureSqlDatabase1_properties_typeProperties_server": {
 			"value": "demo-datanav.database.windows.net"
 		},
@@ -22,6 +19,9 @@
 		},
 		"trigger1_properties_typeProperties_scope": {
 			"value": "/subscriptions/c68d7491-496b-4011-9529-1fb74e21f472/resourceGroups/test/providers/Microsoft.Storage/storageAccounts/demodatanaveed"
+		},
+		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://key-vault-1974.vault.azure.net/"
 		},
 		"containerUri": {
 			"value": ""
