@@ -4,6 +4,7 @@
 		"activities": [
 			{
 				"name": "READ-CISTOMER_TABLE",
+				"description": "reading customer table",
 				"type": "Lookup",
 				"dependsOn": [],
 				"policy": {
