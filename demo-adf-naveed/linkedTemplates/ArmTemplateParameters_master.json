@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "demo-adf-naveed"
+		},
+		"AzureSqlDatabase1_password": {
+			"value": ""
+		},
+		"AzureSqlDatabase1_properties_typeProperties_server": {
+			"value": "demo-datanav.database.windows.net"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_database": {
+			"value": "demo_sql_db"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_userName": {
+			"value": "databeli"
+		},
+		"LS_ADLS_properties_typeProperties_url": {
+			"value": "https://demodatanaveed.dfs.core.windows.net/"
+		},
+		"trigger1_properties_typeProperties_scope": {
+			"value": "/subscriptions/c68d7491-496b-4011-9529-1fb74e21f472/resourceGroups/test/providers/Microsoft.Storage/storageAccounts/demodatanaveed"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
