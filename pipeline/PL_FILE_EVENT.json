@@ -1,5 +1,5 @@
 {
-	"name": "pipeline1",
+	"name": "PL_FILE_EVENT",
 	"properties": {
 		"activities": [
 			{
